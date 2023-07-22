@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main{
+    height: 100vh;
+    background-color: rgb(25, 25, 30);
+    text-align: center;
+    display: flex;
+    font-size: 3.5em;
+    justify-content: space-between;
+}
+
+main a{
+    width: 200vh;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    opacity: .75;
+}
+
+main a:hover{
+    opacity: 1;
+    border: 2px solid white;
+}
+
+#blueprint{
+    background: url(Design/blueprint-patterns/blueprint-1.jpg);
+}
+
+#tecido{
+    background: url(Design/tecido-pattern/jeans\ pattern.png);
+}
+
+#vintage{
+    background: url(Design/vintage-patterns/img-01.png);
+    background-size: 8em;
+}
+
+#wood{
+    background: url(Design/wood-patterns/wood1.jpg);
+}
+
+.blueprint{
+    background: url(Design/blueprint-patterns/blueprint-1.jpg);
+}
+
+.blueprint a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(25, 25, 30);
+    color: white;
+    opacity: .75;
+    display: block;
+    font-size: larger;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.blueprint a:hover{
+    opacity: 1;
+}
+
+.tecido{
+    background: url(Design/tecido-pattern/jeans\ pattern.png);
+}
+
+.tecido a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(25, 25, 30);
+    color: white;
+    opacity: .75;
+    display: block;
+    font-size: larger;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.tecido a:hover{
+    opacity: 1;
+}
+
+.vintage{
+    background: url(Design/vintage-patterns/img-01.png);
+    background-color: rgb(25, 25, 30);
+    background-size: 25em;
+}
+
+.vintage a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(25, 25, 30);
+    color: white;
+    opacity: .75;
+    display: block;
+    font-size: larger;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.vintage a:hover{
+    opacity: 1;
+}
+
+.wood{
+    background: url(Design/wood-patterns/wood1.jpg);
+}
+
+.wood a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(25, 25, 30);
+    color: white;
+    opacity: .75;
+    display: block;
+    font-size: larger;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.wood a:hover{
+    opacity: 1;
+}
+
+@media(max-width: 1000px){
+    main{
+        flex-wrap: wrap;
+    }
+}
