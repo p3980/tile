@@ -14,7 +14,7 @@ main{
 }
 
 main a{
-    width: 200vh;
+    width: 100vh;
     margin: 10px;
     padding: 20px;
     text-decoration: none;
@@ -40,7 +40,7 @@ main a:hover{
     background: url(Design/tecido-pattern/jeans\ pattern.png);
 }
 
-#vintage{
+#stripe{
     background: url(Design/vintage-patterns/img-01.png);
     background-size: 8em;
 }
@@ -93,13 +93,13 @@ main a:hover{
     opacity: 1;
 }
 
-.vintage{
+.stripe{
     background: url(Design/vintage-patterns/img-01.png);
     background-color: rgb(25, 25, 30);
     background-size: 25em;
 }
 
-.vintage a{
+.stripe a{
     text-decoration: none;
     padding: 10px;
     background-color: rgb(25, 25, 30);
